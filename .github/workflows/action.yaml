@@ -1,5 +1,5 @@
 name: Must run on a custom runner
-on: push
+on: [push]
 jobs:
   init:
     runs-on: self-hosted
